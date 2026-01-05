@@ -1,25 +1,23 @@
 1class Solution {
 2public:
 3    bool isPalindrome(string s) {
-4        string k = "";
-5        for (char c : s) {
-6            if (c >= 'a' && c <= 'z') {
-7                k.push_back(c);
-8            }
-9            else if (c >= 'A' && c <= 'Z') {
-10                k.push_back(tolower(static_cast<unsigned char>(c)));
-11            } 
-12            else if (c >= '0' && c <= '9') {
-13                k.push_back(c);
-14            }
-15        }
-16        int i = 0, j = k.size() - 1;
-17        while (i < j) {
-18            if (k[i] != k[j])
-19                return false;
-20            i++;
-21            j--;
-22        }
-23        return true;
-24    }
-25};
+4        int i = 0, j = s.size() - 1;
+5
+6        while (i < j) {
+7
+8            // skip non-alphanumeric on left
+9            while (i < j && !isalnum(s[i])) i++;
+10
+11            // skip non-alphanumeric on right
+12            while (i < j && !isalnum(s[j])) j--;
+13
+14            // compare after normalizing
+15            if (tolower(s[i]) != tolower(s[j]))
+16                return false;
+17
+18            i++;
+19            j--;
+20        }
+21        return true;
+22    }
+23};
