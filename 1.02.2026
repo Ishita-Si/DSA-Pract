@@ -1,0 +1,28 @@
+#include <vector>
+#include <climits>
+#include <algorithm>
+
+class Solution {
+public:
+    int minimumCost(std::vector<int>& nums) {
+        // The first element is always included in the sum
+        int cost = nums[0];
+        
+        // We need to find the two smallest elements in the rest of the array (index 1 to end)
+        int min1 = INT_MAX;
+        int min2 = INT_MAX;
+        
+        for (int i = 1; i < nums.size(); ++i) {
+            if (nums[i] < min1) {
+                // Found a new smallest, push the old smallest to second place
+                min2 = min1;
+                min1 = nums[i];
+            } else if (nums[i] < min2) {
+                // Found a new second smallest
+                min2 = nums[i];
+            }
+        }
+        
+        return cost + min1 + min2;
+    }
+};
