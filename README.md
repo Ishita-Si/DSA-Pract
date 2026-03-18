@@ -10,7 +10,7 @@ This repository contains my **Data Structures & Algorithms practice** for improv
 LeetCode Profile
 
 <p align="left">
-  <img src="https://leetcard.jacoblin.cool/Ishita_Si?theme=dark&font=JetBrains%20Mono" />
+  <img src="https://leetcard.jacoblin.cool/Ishita_Si?theme=dark&font=JetBrains%20Mono&ext=heatmap " />
 </p>
 
 
