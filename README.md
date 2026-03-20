@@ -50,4 +50,16 @@ LeetCode Profile
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/Ishita-Si/DSA-Pract/tree/master/0572-subtree-of-another-tree) |
+## Array
+|  |
+| ------- |
+| [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Ishita-Si/DSA-Pract/tree/master/3567-minimum-absolute-difference-in-sliding-submatrix) |
+## Sorting
+|  |
+| ------- |
+| [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Ishita-Si/DSA-Pract/tree/master/3567-minimum-absolute-difference-in-sliding-submatrix) |
+## Matrix
+|  |
+| ------- |
+| [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Ishita-Si/DSA-Pract/tree/master/3567-minimum-absolute-difference-in-sliding-submatrix) |
 <!---LeetCode Topics End-->
