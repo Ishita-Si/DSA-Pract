@@ -57,6 +57,7 @@ LeetCode Profile
 |  |
 | ------- |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Ishita-Si/DSA-Pract/tree/master/3567-minimum-absolute-difference-in-sliding-submatrix) |
+| [3643-flip-square-submatrix-vertically](https://github.com/Ishita-Si/DSA-Pract/tree/master/3643-flip-square-submatrix-vertically) |
 ## Sorting
 |  |
 | ------- |
@@ -65,4 +66,9 @@ LeetCode Profile
 |  |
 | ------- |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Ishita-Si/DSA-Pract/tree/master/3567-minimum-absolute-difference-in-sliding-submatrix) |
+| [3643-flip-square-submatrix-vertically](https://github.com/Ishita-Si/DSA-Pract/tree/master/3643-flip-square-submatrix-vertically) |
+## Two Pointers
+|  |
+| ------- |
+| [3643-flip-square-submatrix-vertically](https://github.com/Ishita-Si/DSA-Pract/tree/master/3643-flip-square-submatrix-vertically) |
 <!---LeetCode Topics End-->
