@@ -56,6 +56,7 @@ LeetCode Profile
 ## Array
 |  |
 | ------- |
+| [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/Ishita-Si/DSA-Pract/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Ishita-Si/DSA-Pract/tree/master/3567-minimum-absolute-difference-in-sliding-submatrix) |
 | [3643-flip-square-submatrix-vertically](https://github.com/Ishita-Si/DSA-Pract/tree/master/3643-flip-square-submatrix-vertically) |
 ## Sorting
@@ -65,6 +66,7 @@ LeetCode Profile
 ## Matrix
 |  |
 | ------- |
+| [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/Ishita-Si/DSA-Pract/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Ishita-Si/DSA-Pract/tree/master/3567-minimum-absolute-difference-in-sliding-submatrix) |
 | [3643-flip-square-submatrix-vertically](https://github.com/Ishita-Si/DSA-Pract/tree/master/3643-flip-square-submatrix-vertically) |
 ## Two Pointers
