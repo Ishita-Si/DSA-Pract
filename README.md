@@ -25,6 +25,7 @@ LeetCode Profile
 | [0100-same-tree](https://github.com/Ishita-Si/DSA-Pract/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/Ishita-Si/DSA-Pract/tree/master/0101-symmetric-tree) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Ishita-Si/DSA-Pract/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Ishita-Si/DSA-Pract/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Ishita-Si/DSA-Pract/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/Ishita-Si/DSA-Pract/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/Ishita-Si/DSA-Pract/tree/master/0572-subtree-of-another-tree) |
@@ -47,6 +48,7 @@ LeetCode Profile
 | [0100-same-tree](https://github.com/Ishita-Si/DSA-Pract/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/Ishita-Si/DSA-Pract/tree/master/0101-symmetric-tree) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Ishita-Si/DSA-Pract/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Ishita-Si/DSA-Pract/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Ishita-Si/DSA-Pract/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/Ishita-Si/DSA-Pract/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/Ishita-Si/DSA-Pract/tree/master/0572-subtree-of-another-tree) |
@@ -62,6 +64,7 @@ LeetCode Profile
 |  |
 | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Ishita-Si/DSA-Pract/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Ishita-Si/DSA-Pract/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/Ishita-Si/DSA-Pract/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Ishita-Si/DSA-Pract/tree/master/3567-minimum-absolute-difference-in-sliding-submatrix) |
 | [3643-flip-square-submatrix-vertically](https://github.com/Ishita-Si/DSA-Pract/tree/master/3643-flip-square-submatrix-vertically) |
@@ -83,8 +86,10 @@ LeetCode Profile
 |  |
 | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Ishita-Si/DSA-Pract/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Ishita-Si/DSA-Pract/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 ## Divide and Conquer
 |  |
 | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Ishita-Si/DSA-Pract/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Ishita-Si/DSA-Pract/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 <!---LeetCode Topics End-->
