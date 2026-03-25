@@ -68,6 +68,7 @@ LeetCode Profile
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/Ishita-Si/DSA-Pract/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/Ishita-Si/DSA-Pract/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [2906-construct-product-matrix](https://github.com/Ishita-Si/DSA-Pract/tree/master/2906-construct-product-matrix) |
+| [3546-equal-sum-grid-partition-i](https://github.com/Ishita-Si/DSA-Pract/tree/master/3546-equal-sum-grid-partition-i) |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Ishita-Si/DSA-Pract/tree/master/3567-minimum-absolute-difference-in-sliding-submatrix) |
 | [3643-flip-square-submatrix-vertically](https://github.com/Ishita-Si/DSA-Pract/tree/master/3643-flip-square-submatrix-vertically) |
 ## Sorting
@@ -80,6 +81,7 @@ LeetCode Profile
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/Ishita-Si/DSA-Pract/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/Ishita-Si/DSA-Pract/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
 | [2906-construct-product-matrix](https://github.com/Ishita-Si/DSA-Pract/tree/master/2906-construct-product-matrix) |
+| [3546-equal-sum-grid-partition-i](https://github.com/Ishita-Si/DSA-Pract/tree/master/3546-equal-sum-grid-partition-i) |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Ishita-Si/DSA-Pract/tree/master/3567-minimum-absolute-difference-in-sliding-submatrix) |
 | [3643-flip-square-submatrix-vertically](https://github.com/Ishita-Si/DSA-Pract/tree/master/3643-flip-square-submatrix-vertically) |
 ## Two Pointers
@@ -104,4 +106,9 @@ LeetCode Profile
 |  |
 | ------- |
 | [2906-construct-product-matrix](https://github.com/Ishita-Si/DSA-Pract/tree/master/2906-construct-product-matrix) |
+| [3546-equal-sum-grid-partition-i](https://github.com/Ishita-Si/DSA-Pract/tree/master/3546-equal-sum-grid-partition-i) |
+## Enumeration
+|  |
+| ------- |
+| [3546-equal-sum-grid-partition-i](https://github.com/Ishita-Si/DSA-Pract/tree/master/3546-equal-sum-grid-partition-i) |
 <!---LeetCode Topics End-->
