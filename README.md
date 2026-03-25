@@ -67,6 +67,7 @@ LeetCode Profile
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Ishita-Si/DSA-Pract/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/Ishita-Si/DSA-Pract/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/Ishita-Si/DSA-Pract/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
+| [2906-construct-product-matrix](https://github.com/Ishita-Si/DSA-Pract/tree/master/2906-construct-product-matrix) |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Ishita-Si/DSA-Pract/tree/master/3567-minimum-absolute-difference-in-sliding-submatrix) |
 | [3643-flip-square-submatrix-vertically](https://github.com/Ishita-Si/DSA-Pract/tree/master/3643-flip-square-submatrix-vertically) |
 ## Sorting
@@ -78,6 +79,7 @@ LeetCode Profile
 | ------- |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/Ishita-Si/DSA-Pract/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/Ishita-Si/DSA-Pract/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
+| [2906-construct-product-matrix](https://github.com/Ishita-Si/DSA-Pract/tree/master/2906-construct-product-matrix) |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/Ishita-Si/DSA-Pract/tree/master/3567-minimum-absolute-difference-in-sliding-submatrix) |
 | [3643-flip-square-submatrix-vertically](https://github.com/Ishita-Si/DSA-Pract/tree/master/3643-flip-square-submatrix-vertically) |
 ## Two Pointers
@@ -98,4 +100,8 @@ LeetCode Profile
 |  |
 | ------- |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/Ishita-Si/DSA-Pract/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
+## Prefix Sum
+|  |
+| ------- |
+| [2906-construct-product-matrix](https://github.com/Ishita-Si/DSA-Pract/tree/master/2906-construct-product-matrix) |
 <!---LeetCode Topics End-->
