@@ -4,20 +4,20 @@ public:
         int n = mat.size();
         int m = mat[0].size();
 
-        vector<vector<int>> grid = mat;
-
         k = k % m;
 
         for(int i = 0; i < n; i++) {
             for(int j = 0; j < m; j++) {
                 if(i % 2 == 0) {
-                    grid[i][(j + k) % m] = mat[i][j];
+                    if(mat[i][j] != mat[i][(j - k + m) % m])
+                        return false;
                 } else {
-                    grid[i][(j - k + m) % m] = mat[i][j];
+                    if(mat[i][j] != mat[i][(j + k) % m])
+                        return false;
                 }
             }
         }
 
-        return grid == mat;
+        return true;
     }
 };
