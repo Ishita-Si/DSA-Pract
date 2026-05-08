@@ -1,17 +1,21 @@
 1class Solution {
 2public:
 3    int lengthOfLongestSubstring(string s) {
-4        int len = 0;
-5        int maxLen = 0;
-6        for(int i = 0; i < s.size(); i++){
-7            int hash[256] = {0};
-8            for(int j = i ; j< s.size(); j++){
-9                if (hash[s[j]] == 1) break;
-10                len = j -i +1;
-11                maxLen = max(len , maxLen);
-12                hash[s[j]] = 1;
-13            }
-14        }
-15        return maxLen;
-16    }
-17};
+4        vector<int> hash(256,-1); // not seen
+5        int l = 0 , r = 0;
+6        int maxLen = 0;
+7        
+8        while(r < s.size()){
+9            if(hash[s[r]] != -1){ //if seen
+10                if(hash[s[r]] >= l) l = hash[s[r]] + 1; //update hash idx of elem
+11            }
+12            int len = r-l+1;
+13            maxLen = max(len,maxLen);
+14
+15            hash[s[r]] = r;
+16            r++;
+17        }
+18
+19        return maxLen;
+20    }
+21};
