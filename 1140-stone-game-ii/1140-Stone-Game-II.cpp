@@ -1,32 +1,30 @@
 class Solution {
 public:
-    int f(int i, int M, vector<int>& piles, vector<vector<int>>& dp, vector<int>& suffix) {
-        if (i >= piles.size()) return 0;
-        if (2 * M < piles.size() && dp[i][M] != -1) return dp[i][M];
-        
-        int ans = 0;
-        for (int X = 1; X <= 2 * M && i + X <= piles.size(); X++) {
-            int opponent = f(i + X, max(M, X), piles, dp, suffix);
-            int current = suffix[i] - opponent;
-            ans = max(ans, current);
+    int n;
+    int f(int player, int i, int M, vector<int>& piles, vector<vector<vector<int>>>& dp) {
+        if(i >= n) return 0;
+        int res = (player == 1) ? -1 : INT_MAX;
+        int stone = 0;
+        if (M > n) M = n;
+
+        if(dp[i][M][player] != -1) return dp[i][M][player];
+
+        for(int x = 1; x <= min(2*M,n-i);x++){
+            stone += piles[i + x -1];
+            if(player == 1){
+                res = max(res, stone + f(0,i+x,max(M,x), piles, dp));
+            }else{
+                res = min(res, f(1,i+x,max(M,x), piles, dp));
+            }
         }
+        return dp[i][M][player] = res;
         
-        if (2 * M < piles.size()) {
-            dp[i][M] = ans;
-        }
-        return ans;
     }
 
     int stoneGameII(vector<int>& piles) {
-        int n = piles.size();
-        vector<vector<int>> dp(n, vector<int>(n + 1, -1));
-        vector<int> suffix(n);
+        n = piles.size();
+        vector<vector<vector<int>>> dp(n+1, vector<vector<int>>(2*n, vector<int>(2,-1)));
         
-        suffix[n - 1] = piles[n - 1];
-        for (int i = n - 2; i >= 0; i--) {
-            suffix[i] = suffix[i + 1] + piles[i];
-        }
-        
-        return f(0, 1, piles, dp, suffix);
+        return f(1, 0, 1, piles, dp);
     }
 };
